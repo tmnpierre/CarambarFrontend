@@ -11,6 +11,7 @@ L'API backend est déployée sur Render. Vous pouvez accéder à l'API et à sa 
 
 - **API Carambar Jokes** : [https://carambarbackend.onrender.com](https://carambarbackend.onrender.com)
 - **Documentation Swagger de l'API** : [https://carambarbackend.onrender.com/api-docs](https://carambarbackend.onrender.com/api-docs)
+- **Repo GitHub de l'API** : [https://github.com/tmnpierre/CarambarBackend](https://github.com/tmnpierre/CarambarBackend)
 
 ## Prérequis
 
