@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Déclaration du charset pour l'encodage des caractères -->
+  <meta charset="UTF-8">
+  <!-- Déclaration du viewport pour un rendu responsive sur les appareils mobiles -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Titre de la page -->
+  <title>List of Jokes</title>
+  <!-- Lien vers la feuille de styles Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Lien vers la feuille de styles personnalisée -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- En-tête de la page avec navigation -->
+  <header class="bg-warning text-center py-3">
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
+          <!-- Liens de navigation -->
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="jokes-list.html">View Jokes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="add-joke.html">Add a Joke</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="search-joke.html">Search Joke by ID</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="random-joke.html">Random Joke</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <!-- Contenu principal de la page -->
+  <main class="container mt-5">
+    <h2>List of Jokes</h2>
+    <!-- Liste des blagues -->
+    <ul id="jokes" class="list-group"></ul>
+  </main>
+  <!-- Lien vers le fichier JavaScript -->
+  <script src="scripts.js"></script>
+</body>
+</html>
